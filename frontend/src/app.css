@@ -1,0 +1,106 @@
+.card {
+  width: 140px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 1 px solid tomato;
+  margin: 3px 0;
+}
+.marker {
+  z-index: 10;
+  position: relative;
+}
+.desc {
+  font-size: 14px;
+}
+.star {
+  color: goldenrod;
+}
+.place {
+  color: tomato;
+}
+.name {
+  color: tomato;
+}
+form {
+  width: 110px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input {
+  margin-top: 4px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+select {
+  margin-bottom: 5px;
+}
+
+.optOne {
+  font-size: 5px;
+  color: rgb(172, 169, 169);
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.button {
+  width: 60px;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  color: white;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.login {
+  background-color: teal;
+  margin-right: 5px;
+}
+.logout {
+  background-color: tomato;
+}
+.register {
+  margin-right: 7px;
+  width: 70px;
+  color: white;
+  background-color: slateblue;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login {
+  width: 70px;
+  color: white;
+  background-color: teal;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
